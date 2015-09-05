@@ -1,0 +1,20 @@
+{
+  "name": "millnmold",
+  "version": "0.0.0",
+  "homepage": "https://github.com/unscodst/millnmold",
+  "authors": [
+    "unscodst <spikester@sbcglobal.net>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.5"
+  }
+}

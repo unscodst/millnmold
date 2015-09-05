@@ -1,0 +1,23 @@
+{
+  "name": "millnmold",
+  "version": "1.0.0",
+  "description": "Directory of manufacturing companies to grow your product",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unscodst/millnmold.git"
+  },
+  "author": "Mallen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unscodst/millnmold/issues"
+  },
+  "homepage": "https://github.com/unscodst/millnmold#readme"
+}
