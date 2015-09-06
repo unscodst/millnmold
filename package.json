@@ -4,8 +4,8 @@
   "description": "Directory of manufacturing companies to grow your product",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.13.3",
-    "mongodb": "^2.0.42"
+    "express": "4.2",
+    "mongodb": "~2.0.42"
   },
   "devDependencies": {},
   "scripts": {

@@ -5,11 +5,75 @@
 
     </head>
     <body>
-        <div>
-            <label>Name:</label>
-            <input type="text" ng-model="MillnMold">
-            <h1>Hello {{MillnMold}}</h1>
+        <div class="container">
+            <label>Tag:</label>
+            <select ng-model="tag">
+                <option value="Apparel">Apparel</option>
+                <option value="Plastic">Plastic</option>
+                <option value="Metal">Metal</option>
+                <option value="Packaging">Packaging</option>
+                <option value="Stickers">Stickers</option>
+                <option value="Parts">Parts</option>
+                <option value="Food">Food</option>
+            </select>            
+            <label>Country:</label>
+            <select ng-model="country">
+                <option value="United States">United States</option>
+                <option value="China">China</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Vietnam">Vietnam</option>
+                <option value="Italy">Italy</option>
+                <option value="Canada">Canada</option>
+                <option value="Russia">Russia</option>
+            </select>   
+            <label>Company:</label>
+            <input type="text" ng-model="company"> 
+            <label>Description:</label>
+            <input type="text" ng-model="description">   
+            <label>Website:</label>
+            <input type="text" ng-model="website">
+            <label>Email:</label>
+            <input type="text" ng-model="email">  
+            <label>Phone</label>
+            <input type="text" ng-model="phone">
+        </div>
 
+
+        <div class="container">
+            <label>Tag:</label>
+            <select>
+                <option value="Apparel">Apparel</option>
+                <option value="Plastic">Plastic</option>
+                <option value="Metal">Metal</option>
+                <option value="Packaging">Packaging</option>
+                <option value="Stickers">Stickers</option>
+                <option value="Parts">Parts</option>
+                <option value="Food">Food</option>
+            </select> 
+
+            <label>Country:</label>
+            <select>
+                <option value="United States">United States</option>
+                <option value="China">China</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Vietnam">Vietnam</option>
+                <option value="Italy">Italy</option>
+                <option value="Canada">Canada</option>
+                <option value="Russia">Russia</option>
+            </select>
+            <label>Company</label>
+            <label>Website</label>
+            <label>Email</label>
+            <label>Phone</label>
+        </div>
+        <div class="container">
+            <a>{{tag}}</a>
+            <a>{{country}}</a>
+            <a>{{company}}</a>
+            <a>{{description}}</a>
+            <a>{{website}}</a>
+            <a>{{email}}</a>
+            <a>{{phone}}</a>
         </div>
     </body>
 
